@@ -1,0 +1,19 @@
+# Foundry
+out/
+cache/
+broadcast/
+*/broadcast/*/dry-run/
+
+# Dependencies
+lib/
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
